@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Playfair+Display&display=swap');
+body{
+  background-image:url(https://i.ytimg.com/vi/v1SabYdIlZI/maxresdefault.jpg);
+  text-align: center;
+   
+  }
+h1{
+  font-size: 40px;
+}
+
+h2{
+
+}
+h3{
+}
+p{
+  font-family: 'Lobster', cursive;
+} 
+<body>
+  <h1 id="title">Coronavirus survey</h1>
+  <h2>What are you doing in the time of coronavirus?</h2>
+  <p id="description">(Thanks for your time)</p>
+  <form id="survey-form" method="get">
+    <h3>Personal details</h3>
+      <label id="name-label" for="name">Name</label>
+        <input type="text"name="name"id="name"class="form-control"placeholder="Enter your name"required
+      />
+      <br>
+     <br>
+      </label>
+      <label id="email-label" for="email">Email
+  </label>
+        <input type="email" name="email" id="email" required placeholder="Enter your email"/>
+    <br>
+    <br>
+  <label id="number-label" for="number">Age
+  </label>
+            <input type="number" name="number" id="number"required placeholder="years" min="1" max="100"/>
+<br>
+<label id="dropdown">
+  <p id="description">What do you like to do most in the time of coronavirus?</p>
+  <select name="activities"> 
+    <option value="cooking">Cooking</option>
+    <option value="set-up-home" name="activities">Set up home</option>
+    <option value="relax"name="activities">Relax</option>
+    <option value="watch-the-movies"name="activities">watch the movies</option></select>
+<label><p id="description">Do you like stay at home?</p>
+  <input type="radio" name="home" value="very"/>Very
+  <input type="radio" name="home" value="enough"/>Enough
+  <input type="radio" name="home" value="indifferent"/>Indifferent
+  <input type="radio" name="home" value="no-very"/>Not much
+  <input type="radio" name="home" value="absolutely-no"/>Absolutely no
+<label>
+      <p id="description">what do you like eat in the time of coronavirus?</p>
+    <input type="checkbox" name="food"value="sweet"/>Sweet
+   <input type="checkbox" name="food"value="pasta"/>Pasta
+  <input type="checkbox" name="food"value="chicken"/>Chicken
+  <input type="checkbox" name="food"value="rice"/>Rice
+  <input type="checkbox" name="food"value="vegan"/>Vegan
+</label>
+  <br>
+  <label>
+    <p>What do you think helps to spend time in this period?</p>
+    <textarea name="comments" cols="40" row="20">Enter your comments...</textarea>
+  </label>
+  <br>
+  <label for="submit">
+  <button type="submit" id="submit" class="submit-button">
+        Submit
+      </button>
+    </form>
+</body>
