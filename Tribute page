@@ -1,0 +1,51 @@
+body{
+    text-align: center;
+  }
+  h1{
+    font-family: alximia;
+    font-size: 50px;
+  }
+  h2{
+    font-family: alximia;
+  }
+  p{
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: white;
+  }
+  #img-div {
+    text-align: center;  
+    align-items:center;
+      }
+  
+  #image{
+    width: 600px;
+    max-width: 100%;
+  }
+  #img-caption{
+    font-size: 20px;}
+  
+    
+  
+  #tribute-link{
+    font-family: helvetica;
+    font-size: 20px;
+  }
+  #img-div{
+    align-items:center;
+  }
+<div id="main">
+ 
+  <h1 id="title">Mahatma Gandhi</h1>
+  <h2>The man that brought India to independence</h2>
+  
+ <div id="img-div">
+   <img id="image" src="https://www.sbs.com.au/yourlanguage/sites/sbs.com.au.yourlanguage/files/ghandi.jpg" alt ="Gandhi photo"></img>
+  <h3 id="img-caption">
+  Mohandas Karamchand Gandhi  
+  </h3>
+  </div>
+  <p id=tribute-info>Mohandas Karamchand Gandhi; 2 October 1869 – 30 January 1948) was an Indian lawyer,anti-colonial nationalist, and political ethicist, who employed nonviolent resistance to lead the successful campaign for India's independence from British Rule, and in turn inspired movements for civil rights and freedom across the world. The honorific Mahātmā (Sanskrit: "great-souled", "venerable"), first applied to him in 1914 in South Africa, is now used throughout the world.
+</p>
+<a href="https://en.wikipedia.org/wiki/Mahatma_Gandhi" target="_blank" id="tribute-link">Click here for more information about Gandhi!</a>
+</div>
